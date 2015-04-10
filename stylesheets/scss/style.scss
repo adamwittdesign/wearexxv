@@ -282,7 +282,7 @@
 	.contact-form .loading {
 		display: none;
 		background: #000;
-		background: url('/assets/img/ajax_loader.gif') no-repeat;
+		background: url('../../assets/img/ajax_loader.gif') no-repeat;
 		width: 25px;
 		height: 25px;
 		margin-top: 15px;
@@ -547,14 +547,14 @@
 	.diamond-dir-nav > li {
 		width: 9px;
 		height: 15px;
-		background: url('/assets/img/diamondslider/direction_nav.png');
+		background: url('../../assets/img/diamondslider/direction_nav.png');
 		position: absolute;
 		top: 50%;
 		margin-top: -8px;
 		opacity: 0.7;
 	}
 	.nav-white .diamond-dir-nav > li {
-		background-image: url('/assets/img/diamondslider/direction_nav_white.png');
+		background-image: url('../../assets/img/diamondslider/direction_nav_white.png');
 		opacity: 1.0;
 	}
 	.diamond-dir-nav > .inactive {
@@ -775,7 +775,7 @@
 	.header-box-trigger {
 		width: 32px;
 		height: 14px;
-		background: url(/assets/img/trigger-headerbox-arrow.png);
+		background: url(../../assets/img/trigger-headerbox-arrow.png);
 		display: block;
 		position: absolute;
 		bottom: -14px;
@@ -789,7 +789,7 @@
 		text-align: center;
 	}
 	.header-box-trigger.trigger-light {
-		background: url(/assets/img/trigger-headerbox-arrow-light.png);
+		background: url(../../assets/img/trigger-headerbox-arrow-light.png);
 	}
 
 /*	==================================================
@@ -1002,7 +1002,7 @@
 		background-position: bottom;
 		overflow: hidden;
 		z-index: 0;
-		background: url('/assets/img/xxv-group.jpg') center;
+		background: url('../../assets/img/xxv-group.jpg') center;
 		background-size: cover;
 	}
 	.depth-bg .depth-img {
@@ -1017,7 +1017,7 @@
 	}
 	.depth-bg .depth-texture {
 		display: block;
-		background: url('/assets/img/texture-dark.png');
+		background: url('../../assets/img/texture-dark.png');
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -1145,7 +1145,7 @@
 	.texture:after {
 		content: "";
 		display: block;
-		background: url(/assets/img/texture-dark.png);
+		background: url(../../assets/img/texture-dark.png);
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -1177,14 +1177,14 @@
 	.owl-controls .owl-buttons div {
 		width: 9px;
 		height: 15px;
-		background: url(/assets/img/diamondslider/direction_nav.png);
+		background: url(../../assets/img/diamondslider/direction_nav.png);
 		position: absolute;
 		top: 50%;
 		margin-top: -8px;
 		opacity: 0.2; 
 	}
 	.nav-white .owl-controls .owl-buttons div {
-		background: url(/assets/img/diamondslider/direction_nav_white.png);
+		background: url(../../assets/img/diamondslider/direction_nav_white.png);
 	}
 	.owl-controls .owl-buttons div:hover {
 		opacity: 0.7;
@@ -1217,7 +1217,7 @@
 	.slider .owl-controls .owl-buttons div {
 		width: 30px;
 		height: 30px;
-		background: url(/assets/img/slider_nav_white.png);
+		background: url(../../assets/img/slider_nav_white.png);
 		position: absolute;
 		bottom: 15px;
 		top: auto;
@@ -1351,7 +1351,7 @@
 	.bottom-arrow:after {
 		content: "";
 		display: block;
-		background: url(/assets/img/bottom-arrow-white.png);
+		background: url(../../assets/img/bottom-arrow-white.png);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
@@ -1647,7 +1647,7 @@
 	# Ajax Loaders
 	================================================== */
 	.ajax-preloader {
-		background-image: url(/assets/img/ajax_loader.gif);
+		background-image: url(../../assets/img/ajax_loader.gif);
 		background-repeat: no-repeat;
 		background-position: center;
 		min-height: 30px;
