@@ -566,7 +566,7 @@
 		opacity: 1.0;
 	}
 	.diamond-dir-nav > .inactive {
-		opacity: 0.1!important;
+		opacity: 0.1 !important;
 	}
 	.diamond-dir-nav > .inactive a {
 		cursor: default;
@@ -889,7 +889,7 @@
 	}
 	.project-nav .prev a,
 	.project-nav .next a {
-		background: url(assets/img/diamondslider/direction_nav.png);
+		background: url('../../assets/img/diamondslider/direction_nav.png');
 		opacity: 0.3;
 		display: block;
 		width: 9px;
