@@ -1,0 +1,240 @@
+/*	==================================================
+# Media Queries
+================================================== */
+@media screen and (min-width: 1900px){
+	.depth-bg .depth-slider .owl-item img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 991px){
+	/** mobile navigation */
+	#trigger-mobile-nav {
+		display: block;
+	}
+	.mobile-nav {
+		width: 100%;
+		margin-bottom: 20px;
+		display: none;
+		overflow-x: hidden;
+		max-height: 420px;
+	}
+	.mobile-nav .nav li {
+		float: none;
+	}
+	.mobile-nav .nav > li > a {
+		font-size: 12px;
+		border-top: 1px solid #333;
+		padding: 10px 0;
+	}
+	.mobile-nav .nav > li:first-child > a {
+		border-top: 0px;
+	}
+
+	/** mobile sub-menu - since v1.1 */
+	.nav > li > .sub-menu,
+	.nav > li > .sub-menu .sub-menu {
+		display: block;
+		position: static;
+		width: 100%;
+	}
+	.nav > li > .sub-menu a,
+	.nav > li > .sub-menu .sub-menu a {
+		padding: 10px 15px;
+		font-size: 11px;
+	}
+	/** end since v1.1 */
+
+	/** disable header box */
+	.header-box {
+		display: none;
+	}
+
+	/** disable parallax functionality */
+	.parallax {
+		background-position: 0!important;
+		background-attachment: scroll!important;
+	}
+
+	/** extra columns */
+	.col-xtra-1 {
+		width: 100%;
+	}
+	.col-xtra-offset-1,
+	.col-xtra-offset-4 {
+		margin-left: 0;
+	}
+
+	/** depth bg */
+	.depth-type .container {
+		padding-bottom: 90px!important;
+	}
+	.depth-bg .depth-img {
+		display: none;
+	}
+
+	/** blog */
+	.sidebar {
+		padding-left: 15px;
+	}
+
+	/** disable bottom arrow */
+	.bottom-arrow {
+		padding-bottom: 0;
+		margin-bottom: 30px;
+	}
+	.bottom-arrow:after {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.container{
+		width: 738px;
+	}
+
+	/** testimonials */
+	.testimonial-content {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	/** testimonials */
+	.testimonial-content {
+		width: 100%;
+	}
+	.testimonial-thumb {
+		margin-top: 30px;
+	}
+
+	/** project item */
+	.style-one .project-media,
+	.style-one .project-content,
+	.style-two .project-media,
+	.style-two .project-content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	.style-one .project-media,
+	.style-two .project-media {
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+	.container{
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 479px){
+	.container{
+		width: auto;
+	}
+	.diamond-viewport {
+		margin: 0 auto !important;
+		width: auto !important;
+	}
+	#diamond-filter-home {
+		margin: 30% 0 0 0;
+	}
+	
+	#home {
+		h2 {
+			font-size: 18px;
+		}
+		.big-logo {
+			margin-top: -50px !important;
+			margin-bottom: -120px !important;
+			img {
+				opacity: 0.6 !important;
+			}
+		}
+	}
+
+	.depth-texture {
+		opacity: 0.3;
+	}
+
+	/** fonts */
+	.section-title {
+		font-size: 34px;
+		margin: 30px 0px;
+	}
+	.slides {
+		width: auto !important;
+		margin-top: -100px !important;
+	}
+
+
+	.diamondslider {
+		.shape {
+			left: 50% !important;
+			@include transform(translate(-50%,0%) rotate(45deg));
+			&.diamond {
+				width:  150px;
+				height: 150px;
+				img {
+					width: 146%;
+					@include transform(translate(-50%,-50%) rotate(-45deg));
+					top: 50%;
+					left: 50%;
+					right: initial;
+					bottom: initial;
+					max-width: initial;
+				}
+				a {
+					width: 100%;
+					height: 100%;
+					@include transform(translate(0%,0%) rotate(-90deg));
+					top:  0%;
+					left: 0%;
+					right: initial;
+					bottom: initial;
+					max-width: initial;
+				}
+				.item-hover {
+					display: block !important;
+					background: transparent !important;
+					.hover-title {
+						@include transform(translate(-50%,0%));
+						margin: 0 !important;
+						position: absolute;
+						background: rgba(#F1633C, 0.7) !important;
+						left: 50%;
+						bottom: 0%;
+						display: block;
+						width: 100%;
+						font-size: 12px;
+						font-weight: 600;
+						line-height: 1.3em;
+						padding: 4px 4px;
+					}
+					.hover-action {display: none;}
+				}
+			}
+		}
+	}
+	.depth-bg {
+		background-size: 100% auto;
+		background-position: 0% 60px;
+	}
+	.data-type, .data-content {
+		width: auto !important;
+		float: none !important;
+	}
+	#project-item {
+		padding: 60px 0;
+		.container {
+			padding: 0;
+		}
+		.project-content, .project-media {
+			margin: 0 15px 20px;
+		}
+	}
+}
+
+
+
+
