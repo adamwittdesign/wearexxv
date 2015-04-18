@@ -136,7 +136,7 @@
 
 			var	hash,
 				url,
-				rootFolder = "portfolio-item",
+				rootFolder = "designers",
 				rootFolder2 = "team-member",
 				is_pageRefreshed = true,
 				is_ajaxLoading = false,
